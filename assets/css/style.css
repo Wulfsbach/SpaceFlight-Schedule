@@ -1,0 +1,35 @@
+
+body {
+    background-image: url(https://images.designtrends.com/wp-content/uploads/2015/12/10062601/Space-Backgrounds4.jpg);
+    background-repeat:no-repeat; 
+    background-size: 100%;
+}
+
+
+
+
+.card{
+background-image: url(https://www.welovesolo.com/wp-content/uploads/2014/10/p17m28d3og14o0iii1of61r3918o4b-details.jpg);
+background-repeat: no-repeat;
+background-size: 100%;
+color: azure;
+border: aqua;
+border-style: double;
+margin: 5%;
+}
+.current {
+    align-content: center;
+    padding: 2%;
+   
+}
+
+.container {
+    align-content: center;
+}
+.jumbotron{
+    background-image: url(https://pre00.deviantart.net/9121/th/pre/i/2015/231/5/8/artemis___sedt_shuttle_by_asahisuperdry-d96deam.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: white;
+    text-align: center;
+}

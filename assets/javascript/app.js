@@ -51,7 +51,7 @@ var Freq = data.frequency;
 var Arri = data.arrival;
 
 
- var minutes1 =  minutes - Freq+1;
+ var minutes1 =  minutes + Freq;
 
   $("#ship-table > tbody").append('<tr><td>'+ Shutt + '</td><td>' + Dest +'</td><td>' + Freq + '</td><td>' + Arri + '</td><td>'+ minutes1 + '</td></tr>');
 
