@@ -1,1 +1,1 @@
-# Wulfsbach.github.io/SpaceFlight-Schedule/
+# SpaceFlight-Schedule
