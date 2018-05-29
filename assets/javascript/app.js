@@ -61,4 +61,4 @@ var Arri = data.arrival;
 var now = new Date()
 var minutes= now.getMinutes();
 console.log(minutes);
- 
+
