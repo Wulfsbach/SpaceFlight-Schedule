@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie_edge">
+        <title> Flight Schedule </title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">       
+         <link rel="stylesheet" href="./assets/css/style.css">  
+         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+         <script src="https://www.gstatic.com/firebasejs/5.0.4/firebase.js"></script>
+         <script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
+    </head>
+    <body>
+<div class="container">    
+
+        <div class="jumbotron">
+            <h1 class-"dislay-4"> Departure Schedule</h1>
+            <p class="lead"> Please be advised the time will update if there is a delay</p>
+        </div>
+    
+ <div class="row">
+
+    <div class=" card card-primary">
+        <div class="card-heading">
+            <h3 class="card-title"> Current Departures </h3>
+        </div>
+        <div class="card-body">
+            <table class="table table-hover" id='ship-table'>
+                <thead>
+                    <tr>
+                        <th> Shuttle Name</th>
+                        <th> Destination</th>
+                        <th> Frequency (min)</th>
+                        <th> Next Arrival </th>
+                        <th> Minutes Away</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                </tbody>
+                </table>
+        </div>
+    </div>
+
+ </div>
+ <!--Add -->
+
+<div class="card card-primary">
+    <div class="card-heading">
+        <h3 class="card-title"> Add A Shuttle</h3>
+    </div>
+
+<div class="card-body">
+
+    <form>
+        <div class="form-group row">
+            <label for="shuttle-name-input"> Shuttle Name</label>
+            <input class="form-control" id="shuttle-name-input" type="text">
+        </div>
+        <div class="form-group row">
+            <label for="destination-input"> Destination</label>
+            <input class="form-control" id="destination-input" type="text">
+        </div>
+
+<div class="form-group row">
+    <label for="Frequency-input"> Frequency (min) </label>
+    <input class="form-control" id="Frequency-input" type="text">
+</div>
+
+
+<div class="form-group row">
+        <label for="Arrival-input"> Arrival  </label>
+        <input class="form-control" id="time" type="time">
+    </div>
+<button class="btn btn-primary" id="add-shuttle-btn" type="submit"> Submit</button>
+    </form>
+</div>
+
+
+
+    </div>
+</div>
+
+
+
+        </div>    
+       <!--Javascript link-->
+       <script src="./assets/javascript/app.js"></script>
+        </body>
+        </html>
